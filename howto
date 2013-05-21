@@ -1,0 +1,11 @@
+sudo apt-get install linux-headers-generic build-essential
+
+git clone https://github.com/ashaffer/rt3573sta.git
+
+sudo su
+make clean
+make
+make install
+modprobe -r rt3573sta
+modprobe rt3573sta
+exit
