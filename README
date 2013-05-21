@@ -2,9 +2,9 @@ http://ubuntuforums.org/showthread.php?t=1942689
 
 sudo apt-get install linux-headers-generic build-essential
 
-https://github.com/valtam/netgear_wnda4100_ubuntu.git
+git clone https://github.com/valtam/netgear_wnda4100_ubuntu.git
 
-cd rt3573sta/
+cd netgear_wnda4100_ubuntu/rt3573sta/
 
 sudo su
 make clean
